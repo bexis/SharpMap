@@ -301,8 +301,7 @@ namespace SharpMap.Rendering
         /// <returns>the size</returns>
         public static SizeF SizeOfString74(Graphics g, string text, Font font)
         {
-            var s = g.MeasureString(text, font);
-            return new SizeF(s.Width * 0.74f+1f, s.Height * 0.74f); 
+            return g.MeasureString(text, font);
         }
         /// <summary>
         /// Function to get the <see cref="SizeF"/> of a string when rendered with the given font.
