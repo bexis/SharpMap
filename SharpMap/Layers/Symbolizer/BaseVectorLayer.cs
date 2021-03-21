@@ -15,6 +15,7 @@ using SharpMap.Rendering.Symbolizer;
 using IGeometry = GeoAPI.Geometries.IGeometry;
 using Common.Logging;
 
+
 namespace SharpMap.Layers.Symbolizer
 {
     /// <summary>

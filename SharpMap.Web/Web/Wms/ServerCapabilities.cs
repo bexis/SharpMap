@@ -25,6 +25,7 @@ using System.Xml.Schema;
 using GeoAPI.Geometries;
 using SharpMap.Layers;
 using System.Collections.Generic;
+using NetTopologySuite.Geometries;
 
 namespace SharpMap.Web.Wms
 {
